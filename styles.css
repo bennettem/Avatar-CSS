@@ -2,8 +2,54 @@ body {
     background: #FDEFFC;
 }
 
-.hair {
+/* position avatar absolute */
 
+.container,
+.blush,
+.body,
+.eyebrows,
+.eyes,
+.face,
+.hair,
+.right-ear,
+.mouth,
+.neck,
+.nose {
+    position: absolute;
+}
+
+.container {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 200px;
+    height: 200px;
+}
+
+.top-profile {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border: 2px solid #FFF;
+    background: #E8E9EB;
+    overflow: hidden;
+}
+
+.group {
+    left: -7px;
+}
+
+.hair {
+    z-index: 3;
+    top: 30px;
+    left: 50px;
+    width: 120px;
+    height: 200px;
+    border-radius: 100px 100px 0 0;
+    background: #5A4731;
 }
 
 .left-ear {
@@ -19,7 +65,12 @@ body {
 }
 
 .face{
-
+    z-index: 20;
+    top: 50px;
+    left: 70px;
+    width: 80px;
+    height: 100px;
+    background:#F0BEAF;
 }
 
 .eyebrows {
